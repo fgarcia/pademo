@@ -57,8 +57,8 @@ There is one Sprockets pipeline for each single app along the main one mounted
 by the **base** gem. Therefore most of the time you will get resources from two
 base urls:
 
-  /assets/application.css
-  /my_foo_app/assets/settings.css
+    /assets/application.css
+    /my_foo_app/assets/settings.css
 
 ## Authentication 
 
@@ -86,11 +86,11 @@ testing.
 The RSpec example shows two styles of testing with Capybara. Normally my spec
 folder contains three type of tests:
 
-  spec/unit         Unit tests not requiring Sinatra/Rails/Padrino
-  spec/integration  Tests that do require Sinatra/Rails/Padrino running
-  spec/feature      Tests around a feature and not a specific module or class.
-                    Similar to Cucumber but using RSpec with a more verbose
-                    syntax in a [RDD spirit](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+    spec/unit         Unit tests not requiring Sinatra/Rails/Padrino
+    spec/integration  Tests that do require Sinatra/Rails/Padrino running
+    spec/feature      Tests around a feature and not a specific module or class.
+                      Similar to Cucumber but using RSpec with a more verbose
+                      syntax in a [RDD spirit](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 
 ## ORM
 
@@ -103,8 +103,8 @@ drastic on the long term.
 ## TODO
 
 There is still room for improvent, cleaning to do, and the testing part is
-quite poor. Some people might find interesting if some Javascript
-+ Phantom testing. I might improve things depending on the feedback, but my
-  original intention was providing the example I wanted to have when I started
+quite poor. Some people might find interesting if some Javascript + PhantomJS
+testing. I might improve things depending on the feedback, but my original
+intention was providing the example I wanted to have when I started
 with Padrino.
 
