@@ -1,0 +1,18 @@
+html 
+  head
+    link rel="stylesheet" href="/assets/application.css"
+  body
+    h1 Pademo - Gemified Padrino
+    ul#navlist
+      li: a href="/" Home 
+      li: a href="/foo" Foo 
+      - if logged?
+        li 
+          |(#{logged_user})
+          a href="/sessions/logout" Logout
+      - else
+        li: a href="/sessions/login" Login 
+    hr
+
+
+    = yield

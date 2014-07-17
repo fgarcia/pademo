@@ -1,0 +1,11 @@
+
+= form_tag url_for(:sessions, :login), :method => 'post' do 
+  p 
+    = label_tag 'User'
+    = text_field_tag 'username', value:'demo'
+  p
+    = label_tag 'Password'
+    = text_field_tag 'password', type:'password', value:'demo'
+  p
+    = submit_tag 'Login'
+
