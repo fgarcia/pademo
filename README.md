@@ -86,9 +86,9 @@ testing.
 The RSpec example shows two styles of testing with Capybara. Normally my spec
 folder contains three type of tests:
 
-    spec/unit         Unit tests not requiring Sinatra/Rails/Padrino
-    spec/integration  Tests that do require Sinatra/Rails/Padrino running
-    spec/feature      Tests around a feature and not a specific module or class.
+  - spec/unit         Unit tests not requiring Sinatra/Rails/Padrino
+  - spec/integration  Tests that do require Sinatra/Rails/Padrino running
+  - spec/feature      Tests around a feature and not a specific module or class.
                       Similar to Cucumber but using RSpec with a more verbose
                       syntax in a [RDD spirit](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 
