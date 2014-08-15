@@ -17,10 +17,12 @@ the NodeJS package manager which can install the Bower package manager that
 finally install the packages of your assets. Piece of cake!
 
 The unique aspect in using Bower is that you are supposed to commit into your
-repository the packages that it downloads for you. In this case it is
+repository the assets that it downloads for you. In this case it is
 configured to download into the [vendors
 folder](https://github.com/zenbits/pademo/tree/master/vendors/pademo-base/vendors). 
 
 Assets managed by Bower will have a `bower.json` providing all the information
 you need.
 
+Since this is the central gem, it is the most logic place to use Bower and
+fetch the assets you will provide to your other gems.
