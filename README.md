@@ -5,7 +5,7 @@ experience but want an example with more focus on common configuration tasks
 required by larger projects:
 
   - Divide the application into multiple gems
-  - Asset pipeline (Sprockets)
+  - [Asset pipeline](https://github.com/zenbits/pademo/wiki/Asset-Pipeline) (Sprockets)
   - User authentication (Warden)
   - Testing
 
