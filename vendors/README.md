@@ -15,18 +15,17 @@ Although some of the above claims need to be taken with a grain of salt and
 there will be some headaches when moving away from a monolithic codebase,
 fragmenting into multiple gems can pay off on the long term.
 
-The example is made of two gems included within the **vendor** folder so you can
-quickly test things. Don't do this in real life and use instead an external
-repository.
+Normally each of your project sub-gems will be pulled from their own repository,
+but to ease things I collected them here. Don't do this in real life.
 
-The gem **padrino-foo** just shows a hello world page once it is mounted from the
-**config/apps.rb** folder. This is the basic example for any extra gemified app
-you want to add to your projects.
+The central gem here is **padrino-base** because it provides all the common
+code, configuration, authentication, assets... 
 
-For the common code shared between all your apps, like the layout,
-authentication, assets, code... there is the **padrino-base** gem. 
+Each gemified app is independent in the sense that they can be mounted for
+their own testing. However the **mount** part is always done under the same
+prefix as the whole application and the **root** path '/' is reserved for the
+***base** gem. Mostly because it must provide common assets and routes like the
+ones for authentication.
 
-While each gemified app like **padrino-foo** is mounted within its own prefix, 
-the ***base** gem is mounted as the home route. Mostly because it must provide
-common assets and routes like the ones for authentication.
+
 
