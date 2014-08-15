@@ -1,7 +1,7 @@
 html 
   head
     link rel="stylesheet" href="/assets/application.css"
-    - if settings.gem_style
+    - if defined? settings.gem_style
       link rel="stylesheet" href="/#{settings.prefix}/assets/#{settings.gem_style}.css"
 
   body
