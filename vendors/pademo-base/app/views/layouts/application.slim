@@ -1,21 +1,29 @@
 html 
   head
+    link href="/assets/bootstrap.min.css" rel="stylesheet"
+
     link rel="stylesheet" href="/assets/application.css"
     - if defined? settings.gem_style
       link rel="stylesheet" href="/#{settings.prefix}/assets/#{settings.gem_style}.css"
 
-  body
-    h1 Pademo - Gemified Padrino
-    ul#navlist
-      li: a href="/" Home 
-      li: a href="/foo" Foo 
-      li: a href="/bar" Bar 
-      - if logged?
-        li 
-          |(#{logged_user})
-          a href="/sessions/logout" Logout
-      - else
-        li: a href="/sessions/login" Login 
-    hr
 
-    = yield
+  body
+    .navbar.navbar-inverse.navbar-fixed-top role="navigation"
+      .container
+        .navbar-header
+          a.navbar-brand href="#" Pademo 
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li: a href="/" Home 
+            li: a href="/foo" Foo 
+            li: a href="/bar" Bar 
+            - if logged?
+              li: a href="/sessions/logout" Logout (#{logged_user})
+            - else
+              li: a href="/sessions/login" Login 
+
+    .container
+      = yield
+
+    script src="/assets/jquery.min.js"></script>
+    script src="/assets/bootstrap.min.js"></script>

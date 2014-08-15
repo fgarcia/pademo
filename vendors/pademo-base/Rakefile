@@ -5,5 +5,8 @@ PadrinoTasks.init
 
 desc "Install Bower assets"
 task :bower do
-  system "cp vendors/jquery/dist/jquery.min.js app/javascripts"
+  system "bower install"
+  system "cp vendors/jquery/dist/jquery.min.* app/javascripts"
+  system "cp vendors/bootstrap/dist/css/bootstrap.min.css app/stylesheets"
+  system "cp vendors/bootstrap/dist/js/* app/javascripts"
 end
