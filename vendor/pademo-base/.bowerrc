@@ -1,0 +1,7 @@
+{
+  "directory": "vendors",
+  "json": "bower.json",
+  "searchpath": [
+    "https://bower.herokuapp.com"
+  ]
+}
