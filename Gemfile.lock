@@ -1,5 +1,5 @@
 PATH
-  remote: ./vendor/pademo-base
+  remote: ./vendors/pademo-base
   specs:
     pademo-base (0.0.1)
       padrino-core
@@ -7,7 +7,7 @@ PATH
       padrino-warden
 
 PATH
-  remote: ./vendor/pademo-foo
+  remote: ./vendors/pademo-foo
   specs:
     pademo-foo (0.0.1)
       padrino-core
