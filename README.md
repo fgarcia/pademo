@@ -51,15 +51,6 @@ the ***base** gem is mounted as the home route. Mostly because it must provide
 common assets and routes like the ones for authentication.
 
 
-## Pipeline
-
-There is one Sprockets pipeline for each single app along the main one mounted
-by the **base** gem. Therefore most of the time you will get resources from two
-base urls:
-
-    /assets/application.css
-    /my_foo_app/assets/settings.css
-
 ## Authentication 
 
 Although Padrino comes with the **admin** module, Warden is a long known
