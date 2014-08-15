@@ -44,7 +44,7 @@ module Pademo
       #
       def setup_assets
         register Padrino::Sprockets
-        sprockets 
+        sprockets :paths => ["stylesheets", "images", "javascripts"]
       end
 
       # Setup Warden based authentication
