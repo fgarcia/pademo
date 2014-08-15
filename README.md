@@ -83,4 +83,6 @@ might increase if I find out that this is of any help for other people. Open an
 issue, ask questions, drop me an email, even better a tweet! So I can find out
 if this is useful.
 
+Seriously, a project like this is not fun if you don't make lots of criticism
+or at least insightful comments of what you see here.
 
