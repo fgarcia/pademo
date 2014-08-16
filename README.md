@@ -1,46 +1,50 @@
 # Pademo
 
-Padrino is an agnostic Ruby web framework that gives you absolute freedom about
-how you build your apps. However such power can make a tad overwhelming putting
-all the pieces together for big projects.
+Padrino is an agnostic Ruby web framework that gives you absolute freedom to
+build your apps. However such power can make a tad overwhelming putting all the
+pieces together for big projects.
 
 After trying different configurations, I realized that the best way to
 understand an opinion free framework is a big opinionated demo. One that could
 make choices selecting popular tools and show how they can be combined.
+This way you will see some best practices that Padrino cannot implement for you
+because it would mean forcing a way of doing things for everyone.
 
-Once you go wild, your most ambitious ideas will need:
+Once you go wild, your most ambitious projects will need:
 
   - [Multiple independent subprojects](https://github.com/zenbits/pademo/tree/master/vendors) (aka Rails Engines)
   - An [asset pipeline](https://github.com/zenbits/pademo/wiki/Asset-Pipeline) 
   - [User authentication](https://github.com/zenbits/pademo/wiki/Authentication)
   - [Testing](https://github.com/zenbits/pademo/wiki/Testing)
-  - An some things like ORM, database, messaging, background workers... all of
-    them important, but not yet covered in this demo.
+  - ORM, database, messaging, background workers... all of them important, but
+    not yet covered in this demo.
 
 ## Target Audience
 
-**The ambitious**
+#### The curious
 
-You already know Sinatra and enjoyed writing some small apps with Padrino. You
-enjoyed so much that now you want to build something bigger. Which components
-do you need? Which layout can help? You might wonder how stupid not using Rails
-is in such case, and how much work it will be getting together the basis.
+You already know Sinatra and enjoyed writing some small apps with Padrino. It
+was so fun that now you want to build something bigger. What components do you
+need? Which layout can help? What are the most popular gems? I need to do
+X task with gem Y, is there a live example?
 
-**The student**
+#### The student
 
-After so much magic, so much convention over configuration and micro languages
-as DSLs, you realized that you are part of that large group of Rails users who
-never learned how to use Ruby. You want to look inside the pieces that make
-a web framework and learn the core concepts.
+After so much magic, so much convention over configuration and DSLs, you
+realized that you are part of that large group of people who are very
+proficient with Rails but have no idea of Ruby programming. So much scaffolding
+never gave you the chance to learn properly the core concepts of web
+programming and now you want to master the noble art of coding by thinking.
 
-**The architect**
+#### The architect
 
 You love working with Rails, but also understand that some popular patterns,
 cultural choices and productivity obsession can enter in conflict with
-solid architecture, specially when things really grow VERY large. It feels like
-setting things up might have some benefits over dismantling Rails.
+solid architecture. It feels like setting things up might have some benefits
+over dismantling Rails, you need a clean slate to think clearly about your
+architecture.
 
-**The veteran**
+#### The veteran
 
 Long are the hours working on an existing project and short the ones building
 the configuration for a new one. You are lost trying to separate the few
@@ -54,11 +58,13 @@ experience. Some exposure to Ruby gems will help along some Rack based
 deployments. 
 
 Basically there is no much hand holding. The examples just try to show the
-minimum code to get some tasks done.
+minimum code to get some tasks done. Do not expect a tutorial explaining each
+line.
 
 Never forget that while working with Padrino you might be exposed to all the
 stack: Rack, Sinatra, Gems, Ruby, etc. You do not need to master them, but it
-is expected that you are willing to learn more as a price of the extra freedom.
+is expected that you were willing to learn all the stack as a price for the
+extra freedom.
 
 ## How to use this project
 
@@ -77,7 +83,7 @@ organize some concepts.
 ## Future of Pademo
 
 Many parts looks like written under alcohol influence, lots of ideas are
-unfinished, some cleaning is needed, there is hardly any testing... but the
+unfinished, cleaning is always needed, there is hardly any testing... but the
 worst thing, is that I am not sure I will work too much on this. My dedication
 might increase if I find out that this is of any help for other people. Open an
 issue, ask questions, drop me an email, even better a tweet! So I can find out
