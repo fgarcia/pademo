@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 gemspec
 
+gem 'foreman'
+
 gem "pademo-base", :path => '../pademo-base'

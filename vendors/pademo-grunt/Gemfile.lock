@@ -23,6 +23,12 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
+    foreman (0.74.0)
+      dotenv (~> 0.11.1)
+      thor (~> 0.19.1)
     hike (1.2.3)
     http_router (0.11.1)
       rack (>= 1.0.0)
@@ -109,5 +115,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  foreman
   pademo-base!
   pademo-grunt!
