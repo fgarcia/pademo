@@ -8,8 +8,8 @@ end
 
 Padrino.mount('Pademo::Foo::App').to('/foo')
 Padrino.mount('Pademo::Bar::App').to('/bar')
-
-require 'pademo/hello'
 Padrino.mount('Pademo::Hello::App').to('/hello')
+Padrino.mount('Pademo::Tester::App').to('/tester')
+Padrino.mount('Pademo::Grunt::App').to('/grunt')
 
 Padrino.mount('Pademo::Base::App').to('/')
