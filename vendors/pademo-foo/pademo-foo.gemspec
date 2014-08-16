@@ -3,8 +3,6 @@ require File.expand_path('../lib/pademo-foo/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["fgarcia"]
-  gem.email         = ["fgarcia@zenbits.io"]
-  gem.description   = %q{Pademo sample Padrino gem project}
   gem.summary       = %q{Pademo sample Padrino gem project}
   gem.homepage      = ""
 
