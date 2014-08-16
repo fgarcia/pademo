@@ -7,6 +7,7 @@ gem 'slim'
 gem 'pademo-base', path:'./vendors/pademo-base'
 gem 'pademo-foo', path:'./vendors/pademo-foo'
 gem 'pademo-bar', path:'./vendors/pademo-bar'
+gem 'pademo-hello', path:'./vendors/pademo-hello'
 
 group :development do
   gem 'pry'

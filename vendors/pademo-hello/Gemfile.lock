@@ -1,28 +1,16 @@
 PATH
-  remote: ./vendors/pademo-bar
+  remote: .
   specs:
-    pademo-bar (0.0.1)
+    pademo-hello (0.0.1)
       padrino-core
 
 PATH
-  remote: ./vendors/pademo-base
+  remote: ../pademo-base
   specs:
     pademo-base (0.0.1)
       padrino-core
       padrino-sprockets
       padrino-warden
-
-PATH
-  remote: ./vendors/pademo-foo
-  specs:
-    pademo-foo (0.0.1)
-      padrino-core
-
-PATH
-  remote: ./vendors/pademo-hello
-  specs:
-    pademo-hello (0.0.1)
-      padrino-core
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +21,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    coderay (1.1.0)
     hike (1.2.3)
     http_router (0.11.1)
       rack (>= 1.0.0)
@@ -43,7 +30,6 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    method_source (0.8.2)
     mime-types (1.25.1)
     minitest (5.4.0)
     moneta (0.7.20)
@@ -87,10 +73,6 @@ GEM
     padrino-warden (0.1.0)
       warden (>= 0.10.3)
     polyglot (0.3.5)
-    pry (0.10.0)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -102,7 +84,6 @@ GEM
     slim (2.0.3)
       temple (~> 0.6.6)
       tilt (>= 1.3.3, < 2.1)
-    slop (3.6.0)
     sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -126,11 +107,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pademo-bar!
   pademo-base!
-  pademo-foo!
   pademo-hello!
   padrino (= 0.12.2)
-  pry
   rake
   slim
