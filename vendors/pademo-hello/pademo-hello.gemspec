@@ -3,7 +3,7 @@ require File.expand_path('../lib/pademo/hello/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["fgarcia"]
-  gem.summary       = %q{Pademo sample Padrino gem project}
+  gem.summary       = %q{Pademo Hello World gemmified app}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -13,6 +13,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib", "app"]
   gem.version       = Pademo::Hello::VERSION
 
-  gem.add_dependency "padrino-core"
-  # gem.add_dependency "pademo-base"
+  gem.add_dependency "padrino"
 end

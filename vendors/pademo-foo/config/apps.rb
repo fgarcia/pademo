@@ -7,3 +7,4 @@ Padrino.configure_apps do
 end
 
 Padrino.mount('Pademo::Foo::App').to('/' + Pademo::Foo::App.prefix)
+Padrino.mount('Pademo::Base::App').to('/')

@@ -8,9 +8,11 @@ PATH
   remote: ./vendors/pademo-base
   specs:
     pademo-base (0.0.1)
-      padrino-core
+      padrino
       padrino-sprockets
       padrino-warden
+      rake
+      slim
 
 PATH
   remote: ./vendors/pademo-foo
@@ -22,7 +24,7 @@ PATH
   remote: ./vendors/pademo-hello
   specs:
     pademo-hello (0.0.1)
-      padrino-core
+      padrino
 
 GEM
   remote: https://rubygems.org/

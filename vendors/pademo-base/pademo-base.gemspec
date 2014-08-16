@@ -13,7 +13,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib", "app"]
   gem.version       = Pademo::Base::VERSION
 
-  gem.add_dependency "padrino-core"
+  gem.add_dependency "padrino"
+  gem.add_dependency "rake"
+  gem.add_dependency "slim"
 
   gem.add_dependency "padrino-sprockets"
   gem.add_dependency "padrino-warden"
