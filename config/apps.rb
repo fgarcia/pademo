@@ -6,6 +6,9 @@ Padrino.configure_apps do
   set :protect_from_csrf, true
 end
 
+require 'pademo/sinapi'
+
+Padrino.mount('Pademo::Sinapi::App').to('/sinapi')
 Padrino.mount('Pademo::Foo::App').to('/foo')
 Padrino.mount('Pademo::Bar::App').to('/bar')
 Padrino.mount('Pademo::Hello::App').to('/hello')

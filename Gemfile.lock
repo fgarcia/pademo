@@ -33,6 +33,12 @@ PATH
       padrino
 
 PATH
+  remote: ./vendors/pademo-sinapi
+  specs:
+    pademo-sinapi (0.0.1)
+      sinatra
+
+PATH
   remote: ./vendors/pademo-tester
   specs:
     pademo-tester (0.0.1)
@@ -145,8 +151,8 @@ DEPENDENCIES
   pademo-foo!
   pademo-grunt!
   pademo-hello!
+  pademo-sinapi!
   pademo-tester!
   padrino (= 0.12.2)
   pry
   rake
-  slim

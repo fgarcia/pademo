@@ -3,7 +3,7 @@ require File.expand_path('../lib/pademo/hello/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["fgarcia"]
-  gem.summary       = %q{Pademo Hello World gemmified app}
+  gem.summary       = %q{Pademo Hello gemified app}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

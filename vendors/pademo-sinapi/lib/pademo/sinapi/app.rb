@@ -5,6 +5,15 @@ module Pademo
   module Sinapi
     class App < Sinatra::Base
 
+      class << self
+        # https://gist.github.com/achiu/1718723
+        def dependencies; []; end
+        def setup_application!; end
+        def app_name; 'Sinapi'; end
+        def reoad!; end
+        # TODO lib
+      end
+
       set :prefix, "api"
 
       before do
