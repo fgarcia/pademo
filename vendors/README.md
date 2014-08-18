@@ -1,12 +1,12 @@
 # Gemified apps 
 
-Once you start using multiple gemified apps, it is quite safe to assume that
+Once you start using multiple gemified apps it is quite safe to assume that
 there will be a **core** gem providing common resources. Furthermore this
 *sharing* will not only happen through Ruby **require** calls, but also through
-the URL of your app,  like your '/assets' and '/api' paths.
+the URL of your app,  like your `'/assets'` and `'/api'` paths.
 
 In this demo, the core gem is **padrino-base** and it is the one taking control
-of your home path at '/'. All other gems will be mounted within a prefix.
+of your home path at `'/'`. All other gems will be mounted within a prefix.
 
 Although the root of this demo takes care of mounting all gemified apps for
 you, we want each app to be as independent as possible. This means that they
@@ -19,27 +19,26 @@ bare minimum for your app. If one gem requires all other gems to be loaded and
 running, maybe there is a coupling problem. 
 
 If you call `padrino s` within the root folder of a gemified app, the core gem
-will be mounted at '/' and the gem itself on its own prefix like '/my-gem',
-which should be the exact same prefix in deployment.
+will be mounted at `'/'` and the gem itself on its own prefix like `'/my-gem'`
+(this should be the same in deployment).
 
 Ready to explore the examples?
 
 ## Recommended order 
 
-Since 'pademo-base' provides the '/', '/assets' paths and other common
+Since **pademo-base** provides the `'/'`, `'/assets'` paths and other common
 resources, you might want to skip it for later and start with easier examples:
 
-Start with 'pademo-hello' a very simple example printing just a hello world
-message under one section of your app at '/hello'.
+Start with **pademo-hello** a very simple example printing just a hello world
+message under one section of your app at `'/hello'`.
 
-Move to 'pademo-pipeline' which you can see at '/pipeline' and grasp the idea
+Move to 'pademo-pipeline' which you can see at `'/pipeline'` and grasp the idea
 that two assets pipelines are needed.
 
-'pademo-sinapi' shows how a Sinatra app can be added to Padrino. It provides
-the API call used for an Ajax call demo in 'pademo-tester'
+**pademo-sinapi** shows how a Sinatra app can be added to Padrino. It provides
+the API call used for an Ajax call demo in **pademo-tester**
 
-'pademo-tester' focus on how to setup your testing environment with Rspec
-+ Capybara.
+**pademo-tester** focus on how to setup your testing environment with Rspec and Capybara.
 
 ## Contributions
 
