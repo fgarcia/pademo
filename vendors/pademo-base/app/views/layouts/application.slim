@@ -6,12 +6,11 @@ html lang="en"
     title Pademo
 
     link rel="stylesheet" href="/assets/bootstrap.min.css" 
-
     link rel="stylesheet" href="/assets/application.css"
-
     - if defined? settings.gem_style
       link rel="stylesheet" href="/#{settings.prefix}/assets/#{settings.gem_style}.css"
 
+    script src="/assets/jquery.min.js"
 
   body
     .navbar.navbar-inverse.navbar-fixed-top role="navigation"
@@ -34,5 +33,4 @@ html lang="en"
     .container
       = yield
 
-    script src="/assets/jquery.min.js"
     script src="/assets/bootstrap.min.js"
