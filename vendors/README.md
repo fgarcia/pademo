@@ -32,7 +32,7 @@ resources, you might want to skip it for later and start with easier examples:
 Start with **pademo-hello** a very simple example printing just a hello world
 message under one section of your app at `'/hello'`.
 
-Move to 'pademo-pipeline' which you can see at `'/pipeline'` and grasp the idea
+Move to **pademo-pipeline** which you can see at `'/pipeline'` and grasp the idea
 that two assets pipelines are needed.
 
 **pademo-sinapi** shows how a Sinatra app can be added to Padrino. It provides
