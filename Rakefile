@@ -5,5 +5,5 @@ PadrinoTasks.init
 
 desc "Start demo"
 task :start do 
-  system "rackup"
+  system "bundle exec padrino start"
 end
