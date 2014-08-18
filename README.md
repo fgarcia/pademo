@@ -21,6 +21,8 @@ Once you go wild, your most ambitious projects will need:
 
 ## Target Audience
 
+Why should you start your own large web project using this project as starting point?
+
 #### The curious
 
 You already know Sinatra and enjoyed writing some small apps with Padrino. It
