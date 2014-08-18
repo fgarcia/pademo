@@ -1,0 +1,8 @@
+@import "sassy-global";
+
+p.text2 {
+  @extend p.text1;
+  color: green;
+  font-weight:bold;
+}
+

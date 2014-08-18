@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.version       = Pademo::Pipeline::VERSION
 
   gem.add_dependency "padrino"
+  gem.add_dependency "sass"
 end
