@@ -33,6 +33,12 @@ PATH
       padrino
 
 PATH
+  remote: ./vendors/pademo-pipeline
+  specs:
+    pademo-pipeline (0.0.1)
+      padrino
+
+PATH
   remote: ./vendors/pademo-sinapi
   specs:
     pademo-sinapi (0.0.1)
@@ -151,6 +157,7 @@ DEPENDENCIES
   pademo-foo!
   pademo-grunt!
   pademo-hello!
+  pademo-pipeline!
   pademo-sinapi!
   pademo-tester!
   padrino (= 0.12.2)
