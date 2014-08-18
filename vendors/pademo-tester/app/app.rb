@@ -10,6 +10,10 @@ module Pademo
         render :index
       end
 
+      get "/test1" do 
+        render :test1
+      end
+
     end
   end
 end

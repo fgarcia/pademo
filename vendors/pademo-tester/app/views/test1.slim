@@ -1,0 +1,31 @@
+p Click bellow to load a thoughtful message from Pademo
+
+button type="button" id="cmd_info" class="btn btn-info" Info
+
+p id="msg"
+
+javascript:
+  var cmd_info = function() { 
+    $("#cmd_info").attr("disabled");
+
+    $.ajax({
+      url: '/sinapi/note',
+      type: 'GET',
+      contentType: 'text',
+      error: function(data) {
+        console.log(data.getAllResponseHeaders());
+      },
+      success: function(data) {
+        alert('You got a message!');
+        msg = $('#msg')
+        msg.html(msg.html() + data.text + "<br>");
+      },
+      complete: function() {
+        $("#cmd_info").removeAttr("disabled")
+      }
+    });
+  };
+
+  $('#cmd_info').click( cmd_info );
+  
+
