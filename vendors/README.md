@@ -38,20 +38,21 @@ that two assets pipelines are needed.
 **pademo-sinapi** shows how a Sinatra app can be added to Padrino. It provides
 the API call used for an Ajax call demo in **pademo-tester**
 
-**pademo-tester** focus on how to setup your testing environment with Rspec and Capybara.
+**pademo-tester** focus on how to setup your testing environment for Rspec and Capybara.
 
 ## Contributions
 
 After covering the recommended gems, you will have an understanding of the
-ideas I wanted to provide with this demo. Now you can contribute to this demo
-with new configuration examples and verify if your configuration and/or
+ideas I wanted to provide with this demo. Now you can contribute 
+new configuration examples and verify if your configuration and/or
 workflow is compatible with this style of gemified project. 
 
-Ideally you should focus on integrating one tool or concept per gem. Do not
-forget opening an issue with your idea and wait to see if I have some comments
-before starting your implementation.
+Ideally you should focus on integrating one tool or concept per gem. The idea is having a
+unique place with only one task you can copy or use as reference next time you need to setup
+something. Do not forget opening an issue with your idea and wait to see if I have some 
+advice before starting your implementation.
 
 Each new gem could also an idea for a blog post. If you write one do not forget
-the link to your post, references to research material and specially the issue
+linking to your post, references to research material and specially the issue
 which you used to announce your contribution. That will provide a place for
 discussion.
