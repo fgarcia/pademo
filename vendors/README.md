@@ -33,7 +33,7 @@ Start with **pademo-hello** a very simple example printing just a hello world
 message under one section of your app at `'/hello'`.
 
 Move to **pademo-pipeline** which you can see at `'/pipeline'` and grasp the idea
-that two assets pipelines are needed.
+that two asset pipelines are needed.
 
 **pademo-sinapi** shows how a Sinatra app can be added to Padrino. It provides
 the API call used for an Ajax call demo in **pademo-tester**
