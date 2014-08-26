@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'padrino', '0.12.3'
-
 gem 'pademo-bar', path:'./vendors/pademo-bar'
 gem 'pademo-base', path:'./vendors/pademo-base'
 gem 'pademo-foo', path:'./vendors/pademo-foo'
