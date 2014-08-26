@@ -6,10 +6,9 @@ require 'capybara/rspec'
 require './config/boot'
 
 RSpec.configure do |config|
-  include Capybara::DSL
-
   ::Padrino.load!
-  Capybara.app = Pademo::Base::App
 
+  include Capybara::DSL
+  Capybara.app = Pademo::Base::App
 end
 

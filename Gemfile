@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'padrino', '0.12.2'
-gem 'rake'
+gem 'padrino', '0.12.3'
 
-# TODO: Automate this...
 gem 'pademo-bar', path:'./vendors/pademo-bar'
 gem 'pademo-base', path:'./vendors/pademo-base'
 gem 'pademo-foo', path:'./vendors/pademo-foo'

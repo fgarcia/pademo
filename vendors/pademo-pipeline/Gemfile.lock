@@ -3,6 +3,7 @@ PATH
   specs:
     pademo-pipeline (0.0.1)
       padrino
+      sass
 
 PATH
   remote: ../pademo-base
@@ -79,6 +80,7 @@ GEM
     rack-protection (1.5.3)
       rack
     rake (10.3.2)
+    sass (3.2.19)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)

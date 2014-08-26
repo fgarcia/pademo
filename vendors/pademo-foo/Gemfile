@@ -5,6 +5,5 @@ gemspec
 
 gem 'rake'
 gem 'slim'
-gem 'padrino', '0.12.2'
 
 gem "pademo-base", :path => '../pademo-base'
