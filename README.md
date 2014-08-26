@@ -12,7 +12,7 @@ because it would mean forcing a way of doing things for everyone.
 
 Once you go wild, your most ambitious projects will need:
 
-  - [Multiple independent subprojects](https://github.com/zenbits/pademo/tree/master/vendors) (aka Rails Engines)
+  - [Multiple independent subprojects](https://github.com/zenbits/pademo/tree/master/apps) (aka Rails Engines)
   - An [asset pipeline](https://github.com/zenbits/pademo/wiki/Asset-Pipeline) 
   - [User authentication](https://github.com/zenbits/pademo/wiki/Authentication)
   - [Testing](https://github.com/zenbits/pademo/wiki/Testing)
@@ -72,8 +72,8 @@ The best way is to explore the code, look around and run the example. After
 a `bundle install` you can explore the Rakefile tasks to get an idea of the
 configuration.
 
-All the gems are included in the [vendors
-folder](https://github.com/zenbits/pademo/tree/master/vendors) each one is
+All the gems are included in the [apps
+folder](https://github.com/zenbits/pademo/tree/master/apps) each one is
 intended to teach you something different.
 
 I write my rants in gists and open issues. Some Wiki pages are an attempt to

@@ -9,7 +9,7 @@ module Pademo
         end
 
         def pademo_github_gem(name)
-          pademo_github_link("/vendors/#{name}",name)
+          pademo_github_link("/apps/#{name}",name)
         end
       end
       

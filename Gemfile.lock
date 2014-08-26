@@ -1,42 +1,42 @@
 PATH
-  remote: ./vendors/pademo-tester
+  remote: ./apps/pademo-tester
   specs:
     pademo-tester (0.0.1)
       padrino
 
 PATH
-  remote: ./vendors/pademo-sinapi
+  remote: ./apps/pademo-sinapi
   specs:
     pademo-sinapi (0.0.1)
       sinatra
 
 PATH
-  remote: ./vendors/pademo-pipeline
+  remote: ./apps/pademo-pipeline
   specs:
     pademo-pipeline (0.0.1)
       padrino
       sass
 
 PATH
-  remote: ./vendors/pademo-hello
+  remote: ./apps/pademo-hello
   specs:
     pademo-hello (0.0.1)
       padrino
 
 PATH
-  remote: ./vendors/pademo-grunt
+  remote: ./apps/pademo-grunt
   specs:
     pademo-grunt (0.0.1)
       padrino
 
 PATH
-  remote: ./vendors/pademo-foo
+  remote: ./apps/pademo-foo
   specs:
     pademo-foo (0.0.1)
       padrino-core
 
 PATH
-  remote: ./vendors/pademo-base
+  remote: ./apps/pademo-base
   specs:
     pademo-base (0.0.1)
       padrino
@@ -46,7 +46,7 @@ PATH
       slim
 
 PATH
-  remote: ./vendors/pademo-bar
+  remote: ./apps/pademo-bar
   specs:
     pademo-bar (0.0.1)
       padrino-core

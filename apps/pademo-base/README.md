@@ -2,8 +2,8 @@ Padrino gemified app mounted as root of your webpage '/'
 
 ## Must explore:
 
-- [Main site template](https://github.com/zenbits/pademo/blob/master/vendors/pademo-base/app/views/layouts/application.slim)
-- Common [javascript](https://github.com/zenbits/pademo/tree/master/vendors/pademo-base/app/javascripts) and [stylesheet](https://github.com/zenbits/pademo/tree/master/vendors/pademo-base/app/stylesheets) assets 
+- [Main site template](https://github.com/zenbits/pademo/blob/master/apps/pademo-base/app/views/layouts/application.slim)
+- Common [javascript](https://github.com/zenbits/pademo/tree/master/apps/pademo-base/app/javascripts) and [stylesheet](https://github.com/zenbits/pademo/tree/master/apps/pademo-base/app/stylesheets) assets 
 - Bower to install external assets
 
 ## Bower
@@ -19,8 +19,8 @@ finally install the packages of your assets. Piece of cake!
 The unique aspect in using Bower is that you are supposed to [commit into your
 repository](http://stackoverflow.com/questions/22327758/should-bower-components-be-gitignored)
 the assets that it downloads for you. In this case it is configured to download
-into the [vendors
-folder](https://github.com/zenbits/pademo/tree/master/vendors/pademo-base/vendors). 
+into the [apps
+folder](https://github.com/zenbits/pademo/tree/master/apps/pademo-base/apps). 
 
 Assets managed by Bower will have a `bower.json` providing all the information
 you need.
