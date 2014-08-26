@@ -5,6 +5,8 @@ require 'capybara/rspec'
 
 require './config/boot'
 
+#Dir["spec/support/**/*.rb"].each {|f| require f}
+
 RSpec.configure do |config|
   ::Padrino.load!
 
