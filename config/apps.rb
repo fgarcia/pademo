@@ -8,12 +8,10 @@ end
 
 require 'pademo/sinapi'
 
-Padrino.mount('Pademo::Bar::App').to('/bar')
-Padrino.mount('Pademo::Foo::App').to('/foo')
 Padrino.mount('Pademo::Grunt::App').to('/grunt')
 Padrino.mount('Pademo::Hello::App').to('/hello')
 Padrino.mount('Pademo::Pipeline::App').to('/pipeline')
 Padrino.mount('Pademo::Sinapi::App').to('/sinapi')
 Padrino.mount('Pademo::Tester::App').to('/tester')
 
-Padrino.mount('Pademo::Base::App').to('/')
+Padrino.mount('Pademo::Core::App').to('/')

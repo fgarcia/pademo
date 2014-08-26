@@ -1,7 +1,7 @@
 PATH
-  remote: ../pademo-base
+  remote: ../pademo-core
   specs:
-    pademo-base (0.0.1)
+    pademo-core (0.0.1)
       padrino
       padrino-sprockets
       padrino-warden
@@ -136,6 +136,6 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  pademo-base!
+  pademo-core!
   pademo-tester!
   rspec

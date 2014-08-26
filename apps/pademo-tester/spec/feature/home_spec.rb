@@ -7,6 +7,6 @@ feature "Home Page Feature Test", %q{
 
   scenario "welcome text" do 
     visit('/')
-    expect(page).to have_content 'Hello from pademo-base'
+    expect(page).to have_content 'Hello from pademo-core'
   end
 end

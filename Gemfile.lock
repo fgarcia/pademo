@@ -30,9 +30,9 @@ PATH
       padrino
 
 PATH
-  remote: ./apps/pademo-base
+  remote: ./apps/pademo-core
   specs:
-    pademo-base (0.0.1)
+    pademo-core (0.0.1)
       padrino
       padrino-sprockets
       padrino-warden
@@ -49,6 +49,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     coderay (1.1.0)
+    diff-lcs (1.2.5)
     hike (1.2.3)
     http_router (0.11.1)
       rack (>= 1.0.0)
@@ -110,6 +111,18 @@ GEM
     rack-protection (1.5.3)
       rack
     rake (10.3.2)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.4)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.4)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.4)
     sass (3.4.1)
     sinatra (1.4.5)
       rack (~> 1.4)
@@ -142,10 +155,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pademo-base!
+  pademo-core!
   pademo-grunt!
   pademo-hello!
   pademo-pipeline!
   pademo-sinapi!
   pademo-tester!
   pry
+  rspec

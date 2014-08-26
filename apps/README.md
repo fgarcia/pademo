@@ -26,7 +26,7 @@ Ready to explore the examples?
 
 ## Recommended order 
 
-Since **pademo-base** provides the `'/'`, `'/assets'` paths and other common
+Since **pademo-core** provides the `'/'`, `'/assets'` paths and other common
 resources, you might want to skip it for later and start with easier examples:
 
 Start with **pademo-hello** a very simple example printing just a hello world

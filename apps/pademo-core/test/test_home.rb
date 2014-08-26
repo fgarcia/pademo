@@ -12,12 +12,12 @@ class TestHome < MiniTest::Unit::TestCase
 
   def setup 
     require 'rack/test'
-    browser = Rack::Test::Session.new(Rack::MockSession.new(Pademo::Base::App))
+    browser = Rack::Test::Session.new(Rack::MockSession.new(Pademo::Core::App))
     @home = browser.get('/').body
   end
 
   def test_home_page_contains_hello_message
-    assert_includes @home, "Hello from pademo-base"
+    assert_includes @home, "Hello from pademo-core"
   end
 
 end

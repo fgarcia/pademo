@@ -3,4 +3,4 @@ gemspec
 
 gem 'foreman'
 
-gem "pademo-base", :path => '../pademo-base'
+gem "pademo-core", :path => '../pademo-core'

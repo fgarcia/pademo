@@ -6,4 +6,4 @@ Padrino.configure_apps do
 end
 
 Padrino.mount('Pademo::Tester::App').to('/tester')
-Padrino.mount('Pademo::Base::App').to('/')
+Padrino.mount('Pademo::Core::App').to('/')

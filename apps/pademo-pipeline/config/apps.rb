@@ -6,4 +6,4 @@ Padrino.configure_apps do
 end
 
 Padrino.mount('Pademo::Pipeline::App').to('/pipeline')
-Padrino.mount('Pademo::Base::App').to('/')
+Padrino.mount('Pademo::Core::App').to('/')

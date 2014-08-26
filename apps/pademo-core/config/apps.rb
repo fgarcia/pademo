@@ -5,4 +5,4 @@ Padrino.configure_apps do
   set :protect_from_csrf, true
 end
 
-Padrino.mount('Pademo::Base::App').to('/')
+Padrino.mount('Pademo::Core::App').to('/')

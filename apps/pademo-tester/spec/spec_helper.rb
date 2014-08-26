@@ -11,6 +11,6 @@ RSpec.configure do |config|
   ::Padrino.load!
 
   include Capybara::DSL
-  Capybara.app = Pademo::Base::App
+  Capybara.app = Pademo::Core::App
 end
 

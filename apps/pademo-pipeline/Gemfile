@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gemspec
 
-gem "pademo-base", :path => '../pademo-base'
+gem "pademo-core", :path => '../pademo-core'

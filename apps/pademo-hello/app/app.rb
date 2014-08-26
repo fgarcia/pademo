@@ -2,7 +2,7 @@ module Pademo
   module Hello
 
     class App < Padrino::Application
-      register Pademo::Base::AppCore
+      register Pademo::Core::AppCore
 
       set :prefix, "hello"
 

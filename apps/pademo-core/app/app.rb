@@ -1,7 +1,7 @@
 module Pademo
-  module Base
+  module Core
     class App < Padrino::Application
-      register Pademo::Base::AppCore
+      register Pademo::Core::AppCore
 
       helpers do 
         def pademo_github_link(path, text)

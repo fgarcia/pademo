@@ -2,7 +2,7 @@ require 'padrino-warden'
 require 'padrino/sprockets'
 
 module Pademo 
-  module Base
+  module Core
     module AppCore 
 
       def self.registered(app)
@@ -24,7 +24,7 @@ module Pademo
           # need to calculate relative path because Padrino will not accept 
           # a full path
           require 'pathname'
-          layout = Gem.loaded_specs['pademo-base'].full_gem_path
+          layout = Gem.loaded_specs['pademo-core'].full_gem_path
           layout = File.join layout, 'app/views/layouts/application.slim'
           layout = Pathname.new layout
           base_path = Pathname.new File.join(root, 'views/layouts')
@@ -66,8 +66,8 @@ module Pademo
       #
       def setup_warden
 
-        if defined? Pademo::Base::App
-          if self == Pademo::Base::App
+        if defined? Pademo::Core::App
+          if self == Pademo::Core::App
             # Strategy conf only needed for the app serving user logging
 
             register Padrino::Warden
@@ -78,7 +78,7 @@ module Pademo
               end
 
               def authenticate!
-                u = Pademo::Base::User.authenticate(params["username"], params["password"])
+                u = Pademo::Core::User.authenticate(params["username"], params["password"])
                 u.nil? ? fail!("Could not log in") : success!(u)
               end
             end

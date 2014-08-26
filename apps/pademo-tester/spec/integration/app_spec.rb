@@ -1,5 +1,5 @@
-# Take shared examples from base gem
-require 'pademo-base/spec/shared_examples'
+# Take shared examples from core gem
+require 'pademo-core/spec/shared_examples'
 
 describe Pademo::Tester::App do 
   # This does not seem needed anymore ...

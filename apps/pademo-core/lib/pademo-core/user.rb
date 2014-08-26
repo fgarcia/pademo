@@ -1,5 +1,5 @@
 module Pademo 
-  module Base
+  module Core
     class User
       attr_reader :name
 
