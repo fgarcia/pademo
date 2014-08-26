@@ -19,9 +19,7 @@ source 'https://rubygems.org'
 # tracking. It will be easier and more clear managing your apps versioning here
 # and not through git commits.
 #
-gem 'pademo-bar', path:'./apps/pademo-bar'
 gem 'pademo-base', path:'./apps/pademo-base'
-gem 'pademo-foo', path:'./apps/pademo-foo'
 gem 'pademo-grunt', path:'./apps/pademo-grunt'
 gem 'pademo-hello', path:'./apps/pademo-hello'
 gem 'pademo-pipeline', path:'./apps/pademo-pipeline'

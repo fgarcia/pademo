@@ -30,12 +30,6 @@ PATH
       padrino
 
 PATH
-  remote: ./apps/pademo-foo
-  specs:
-    pademo-foo (0.0.1)
-      padrino-core
-
-PATH
   remote: ./apps/pademo-base
   specs:
     pademo-base (0.0.1)
@@ -44,12 +38,6 @@ PATH
       padrino-warden
       rake
       slim
-
-PATH
-  remote: ./apps/pademo-bar
-  specs:
-    pademo-bar (0.0.1)
-      padrino-core
 
 GEM
   remote: https://rubygems.org/
@@ -154,9 +142,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pademo-bar!
   pademo-base!
-  pademo-foo!
   pademo-grunt!
   pademo-hello!
   pademo-pipeline!

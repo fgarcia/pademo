@@ -1,9 +1,0 @@
-source 'https://rubygems.org'
-
-# Distribute your app as a gem
-gemspec
-
-gem 'rake'
-gem 'slim'
-
-gem "pademo-base", :path => '../pademo-base'
